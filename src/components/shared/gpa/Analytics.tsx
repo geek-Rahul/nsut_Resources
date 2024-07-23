@@ -22,3 +22,4 @@ const Analytics = ({ subjects }: { subjects: SubjectCredits[] }) => {
 }
 
 export default Analytics
+ 
