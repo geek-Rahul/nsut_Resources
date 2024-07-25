@@ -17,7 +17,7 @@ const RecentlyViewedTab = ({
                 Recently Viewed
             </h1>
             {list.length > 0 ? (
-                list.map((item, index) => (
+                list.map((item, index) =>(
                     <div
                         key={index}
                         className="md:2/3 mx-auto mt-2 flex items-center justify-between sm:justify-evenly md:justify-between lg:w-3/4 xl:w-5/6"
